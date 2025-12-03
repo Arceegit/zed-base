@@ -1,1 +1,1 @@
-# zed-base
+# Zed Discord bot base
