@@ -3,6 +3,8 @@ version: 1.0.0-Vanessa-(Release)
 release_notes:
   - title: "Core Features"
     features:
+      - name: "Multiple Instances"
+        description: "Support for multiple bot instances with the same code."
       - name: "Dual Command Support"
         description: "Ready with both modern Slash (/) Commands and traditional Prefix Commands (e.g., !ping)."
       - name: "Hot-Reloading"
