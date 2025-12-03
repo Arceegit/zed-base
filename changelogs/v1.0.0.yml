@@ -1,1 +1,38 @@
+name: Zed Discord Bot Base
+version: 1.0.0-Vanessa-(Release)
+release_notes:
+  - title: "Core Features"
+    features:
+      - name: "Dual Command Support"
+        description: "Ready with both modern Slash (/) Commands and traditional Prefix Commands (e.g., !ping)."
+      - name: "Hot-Reloading"
+        description: "Commands and events update automatically without bot restarts when their files or the main config.json are changed."
+      - name: "Easy Configuration"
+        description: "A single config.json file manages all important settings like tokens, prefixes, and owner IDs."
+      - name: "System Monitoring"
+        description: "Tracks bot resource usage (RAM/Heap) and logs all activities to `latest.log`."
+
+  - title: "Web Dashboard Features"
+    features:
+      - name: "Full-Fledged UI"
+        description: "A complete web dashboard for real-time bot management and monitoring."
+      - name: "Command Center"
+        description: "View, enable/disable, set cooldowns, and manage permissions for all commands."
+      - name: "Event Manager"
+        description: "View and enable/disable all bot events (e.g., `ready`, `messageCreate`)."
+      - name: "Live Console"
+        description: "Streams bot logs live from `latest.log` with search and clear options."
+      - name: "Server Management"
+        description: "Lists all joined servers, shows details (members, channels, roles), and allows leaving servers."
+      - name: "Bot Settings"
+        description: "Edit bot configuration (tokens, presence, webhooks) directly from the UI."
+
+tech_stack:
+  bot:
+    - "Node.js"
+    - "discord.js"
+  dashboard:
+    - "Astro"
+    - "Tailwind CSS"
+    - "MDUI"
 
