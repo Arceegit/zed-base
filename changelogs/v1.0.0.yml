@@ -13,6 +13,8 @@ release_notes:
         description: "A single config.json file manages all important settings like tokens, prefixes, and owner IDs."
       - name: "System Monitoring"
         description: "Tracks bot resource usage (RAM/Heap) and logs all activities to `latest.log`."
+      - name: "Updates"
+        description: "Dashboard automatically detects new updates for Zed Base (fr)"
 
   - title: "Web Dashboard Features"
     features:
